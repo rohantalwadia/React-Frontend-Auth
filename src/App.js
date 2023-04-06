@@ -10,9 +10,9 @@ import PhoneSignUp from "./components/PhoneSignUp";
 function App() {
   return (
     <Container style={{ width: "400px" }}>
+      <div class="d-flex flex-column justify-content-center w-100 h-100"></div>
       <Row>
-        <Col>
-         
+        <Col>    
             <Routes>
               <Route
                 path="/"
